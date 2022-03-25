@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(236, 201, 201);
+}
+
+div.poster {
+    background-color: white;
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.text{
+    font-size: 60px;
+    font-family: Arial;
+    text-align: center;
+    color:blue;
+    -webkit-text-stroke:2px rgb(141, 173, 233)
+     transition:0.5px;
+ }
+
+ /* rule 1 */
+
+ div.text.one {
+     font-size:30px;
+ }
+ div.text.two {
+     font-size:60px;
+ }
+ div.text.three{
+     font-size:160px;
+ }
+/* rule2 */
+ div.text.a{
+     color:antiquewhite;
+}
+div.text.b{
+ color:rgb(247, 193, 211);  
+}
+div.text.c{
+    color:rgb(253, 228, 251);
+}
+
+/* rule 3 */
+
+div.text.x{
+    text-align: left;
+}
+div.text.y{
+    text-align: right;
+}
+div.text:z{
+    text-align: center;
+}
+       
+ 
+  div.small{
+        font-size: 30px;
+        color:#7099a5;
+        text-align:center;
+    }
+
+
+
+
+   
